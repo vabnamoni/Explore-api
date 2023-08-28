@@ -5,5 +5,7 @@ function loadUsers2(){
     
 }
 function displayUser2(data){
-    console.log(data)
+    for (const user of data){
+        console.log(user.name);
+    }
 }
